@@ -68,3 +68,7 @@
 # Appendix
 ## SQL
 ### join
+### inner join
+### left join
+### right join
+### full join
