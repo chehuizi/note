@@ -44,6 +44,6 @@
 # <a name="storage">storage</a>
 
 
-# <a name="search">search</a>
+# search
 ## 搜索引擎原理
 1. <a href="https://lucene.apache.org/">lucene</a>
