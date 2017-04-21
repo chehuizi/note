@@ -5,11 +5,11 @@
 * <a href="README.md#dns">DNS</a>
 * <a href="README.md#cdn">CDN</a>
 * <a href="README.md#lb">LB</a>
-* <a href="README.md#webApp">WebApp</a>
+* <a href="README.md#webapp">WebApp</a>
 * <a href="README.md#soa">SOA</a>
 * <a href="README.md#mq">MQ</a>
-* <a href="README.md#Cache">Cache</a>
-* <a href="README.md#Storage">Storage</a>
+* <a href="README.md#aache">Cache</a>
+* <a href="README.md#storage">Storage</a>
 * <a href="README.md#search">Search</a>
 
 # what is it?
