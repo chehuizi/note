@@ -17,7 +17,7 @@
 # LB
 ### 负载均衡原理
 ### 常用组件
-##### Nginx
+* Nginx
 
 # WebApp
 
