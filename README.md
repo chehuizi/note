@@ -1,5 +1,5 @@
 # Table of Contents
-* <a href="#what is it?">what is it?</a>
+* <a href="#why?">why?</a>
 * <a href="#architecture">Architecture</a>
 * <a href="#network">Network</a>
 * <a href="#dns">DNS</a>
@@ -12,7 +12,7 @@
 * <a href="#storage">Storage</a>
 * <a href="#search">Search</a>
 
-# what is it?
+# why?
 本人本科毕业后一直在web开发领域工作，工作五年有余，今日有机会对自己五年工作做个总结。
 
 
