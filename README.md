@@ -1,14 +1,14 @@
 # Table of Contents
-* <a href="README.md#what is it?">what is it?</a>
-* <a href="README.md#architecture">Architecture</a>
-* <a href="README.md#network">Network</a>
-* <a href="README.md#dns">DNS</a>
-* <a href="README.md#cdn">CDN</a>
-* <a href="README.md#lb">LB</a>
-* <a href="README.md#webapp">WebApp</a>
-* <a href="README.md#soa">SOA</a>
-* <a href="README.md#mq">MQ</a>
-* <a href="README.md#cache">Cache</a>
+* <a href="#what is it?">what is it?</a>
+* <a href="#architecture">Architecture</a>
+* <a href="#network">Network</a>
+* <a href="#dns">DNS</a>
+* <a href="#cdn">CDN</a>
+* <a href="#lb">LB</a>
+* <a href="#webapp">WebApp</a>
+* <a href="#soa">SOA</a>
+* <a href="#mq">MQ</a>
+* <a href="#cache">Cache</a>
 * <a href="#storage">Storage</a>
 * <a href="#search">Search</a>
 
