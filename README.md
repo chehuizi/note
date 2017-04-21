@@ -14,34 +14,34 @@
 * <a href="README.md#search">search</a>
 
 
-# <a name="architecture">架构概述</a>
+# 架构概述
 
 
-# <a name="network">典型组网</a>
+# 典型组网
 
 
-# <a name="DNS">DNS</a>
+# DNS
 
 
-# <a name="CDN">CDN</a>
+# CDN
 
 
-# <a name="LB">LB</a>
+# LB
 
 
-# <a name="webApp">webApp</a>
+# webApp
 
 
-# <a name="SOA">SOA</a>
+# SOA
 1. <a href="http://dubbo.io/">dubbo</a>
 
-# <a name="MQ">MQ</a>
+# MQ
 
 
-# <a name="cache">cache</a>
+# cache
 
 
-# <a name="storage">storage</a>
+# storage
 
 
 # search
