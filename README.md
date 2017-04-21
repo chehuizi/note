@@ -5,6 +5,8 @@
 * <a href="#dns">DNS</a>
 * <a href="#cdn">CDN</a>
 * <a href="#lb">LB</a>
+** <a href="#负载均衡原理">LB</a>
+** <a href="#常用组件">LB</a>
 * <a href="#webapp">WebApp</a>
 * <a href="#soa">SOA</a>
 * <a href="#mq">MQ</a>
