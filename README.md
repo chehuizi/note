@@ -21,6 +21,9 @@
   * <a href="#搜索引擎原理">搜索引擎原理</a>
   * <a href="#开源工具">开源工具</a>
     * <a href="#lucene">lucene</a>
+* <a href="#分布式数据管理">分布式数据管理</a>
+  * <a href="#zookeeper">zookeeper</a>
+    
 * <a href="#appendix">Appendix</a>
   * <a href="#sql">SQL</a>
     * <a href="#join">join</a>
@@ -74,6 +77,8 @@
 ## 开源工具
 ### lucene
 
+# 分布式数据管理
+## zookeeper
 
 ------
 
@@ -84,3 +89,4 @@
 ### left join
 ### right join
 ### full join
+
