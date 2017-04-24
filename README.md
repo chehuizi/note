@@ -13,7 +13,7 @@
   * <a href="#开源rpc框架">开源RPC框架</a>
     * <a href="#dubbo">dubbo</a>
 * <a href="#mq">MQ</a>
-  * <a href="#核心需求">核心需求</a>
+  * <a href="#应用场景">应用场景</a>
   * <a href="#开源消息中间件">开源消息中间件</a>
     * <a href="#kafka">kafka</a>
 * <a href="#cache">Cache</a>
@@ -62,7 +62,7 @@
 ### dubbo
 
 # MQ
-## 核心需求
+## 应用场景
 **异步**  
   关键主流程无需等待下游非关键流程的返回才能进行同步操作。  
 **解耦**  
