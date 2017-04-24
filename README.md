@@ -13,6 +13,7 @@
   * <a href="#开源rpc框架">开源RPC框架</a>
     * <a href="#dubbo">dubbo</a>
 * <a href="#mq">MQ</a>
+  * <a href="#核心需求">核心需求</a>
   * <a href="#开源消息中间件">开源消息中间件</a>
     * <a href="#kafka">kafka</a>
 * <a href="#cache">Cache</a>
@@ -61,7 +62,10 @@
 ### dubbo
 
 # MQ
-## 基础概念
+## 核心需求
+### 异步
+
+### 解耦
 
 ## 开源消息中间件
 ### kafka
