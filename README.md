@@ -94,6 +94,7 @@
 ## 开源消息中间件
 ### kafka
 ### ActiveMQ
+### RabbitMQ
 
 # Cache
 
