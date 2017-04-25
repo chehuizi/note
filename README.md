@@ -82,8 +82,13 @@
 **事务消息**  
 保证数据库操作和消息发送是一致的。  
 
+## 消息队列的模式
+### P2P
+### publish/subscribe
+
 ## 开源消息中间件
 ### kafka
+### ActiveMQ
 
 # Cache
 
