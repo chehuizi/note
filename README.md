@@ -121,4 +121,7 @@
 ### full join
 
 ## CAP
-
+C: Consistency 一致性  
+A: Availability 可用性  
+P: Partition Tolerance分区容错性  
+CAP理论的核心是：一个分布式系统不可能同时很好的满足一致性，可用性和分区容错性这三个需求，最多只能同时较好的满足两个。
