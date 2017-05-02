@@ -123,7 +123,9 @@
 ## 序列化
 
 ## 多线程
-
+volatile
+synchronized
+java.util.concurrent
 
 # http
 无连接  
