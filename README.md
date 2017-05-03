@@ -148,6 +148,8 @@ id
 ### full join
 
 ## 锁
+### 悲观锁
+### 乐观锁
 
 ## CAP
 C: Consistency 一致性  
