@@ -147,6 +147,8 @@ id
 ### right join
 ### full join
 
+## 锁
+
 ## CAP
 C: Consistency 一致性  
 A: Availability 可用性  
