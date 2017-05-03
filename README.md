@@ -110,6 +110,9 @@
 ### lucene
 ## ELK
 ### Elasticsearch
+index  
+type  
+id  
 ### Logstash
 ### Kibana
 
