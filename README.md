@@ -127,6 +127,7 @@ volatile
 synchronized  
 java.util.concurrent   
 ReentrantLock  
+ThreadLocal  
 
 # http
 无连接  
