@@ -123,11 +123,12 @@
 ## 序列化
 
 ## 多线程
-volatile  
-synchronized  
-java.util.concurrent   
-ReentrantLock  
-ThreadLocal  
+### volatile
+### synchronized
+### java.util.concurrent
+### ReentrantLock
+### ThreadLocal
+### Executor
 
 # http
 无连接  
