@@ -132,6 +132,9 @@ id
 ### ReentrantLock
 ### ThreadLocal
 ### Executor
+ThreadPoolExecutor  
+### 进程状态
+new、runnable、running、waiting、timed_waiting、blocked、dead  
 
 # http
 无连接  
