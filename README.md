@@ -126,6 +126,7 @@ id
 ## 序列化
 
 ## 多线程
+![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/thread.jpg)
 ### volatile
 ### synchronized
 ### java.util.concurrent
