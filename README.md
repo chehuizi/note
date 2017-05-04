@@ -127,15 +127,7 @@ id
 
 ## 多线程
 ![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/thread.jpg)
-### volatile
-### synchronized
-### java.util.concurrent
-### ReentrantLock
-### ThreadLocal
-### Executor
-ThreadPoolExecutor  
-### 进程状态
-new、runnable、running、waiting、timed_waiting、blocked、dead  
+[多线程学习资料](http://www.cnblogs.com/skywang12345/p/java_threads_category.html )
 
 # http
 无连接  
