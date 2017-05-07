@@ -131,6 +131,7 @@ id
 
 ## 集合
 ![集合工具包框架图](https://github.com/chehuizi/demo/blob/master/collection.jpg)
+[集合学习资料](http://www.cnblogs.com/skywang12345/p/3323085.html)
 
 # http
 无连接  
