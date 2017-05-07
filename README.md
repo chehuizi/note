@@ -124,10 +124,10 @@ id
 
 # Java
 ## IO
-![以字节为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/io_stream.jpg)
-![以字符为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/io_char.jpg)
-![字节和字符的输入流对应关系](https://github.com/chehuizi/demo/blob/master/io_in_stream_char.jpg)
-![字节和字符的输出流对应关系](https://github.com/chehuizi/demo/blob/master/io_out_stream_char.jpg)
+![以字节为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/img/io_stream.jpg)
+![以字符为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/img/io_char.jpg)
+![字节和字符的输入流对应关系](https://github.com/chehuizi/demo/blob/master/img/io_in_stream_char.jpg)
+![字节和字符的输出流对应关系](https://github.com/chehuizi/demo/blob/master/img/io_out_stream_char.jpg)
 [IO学习资料](http://www.cnblogs.com/skywang12345/p/io_01.html)
 
 ## 多线程
