@@ -129,6 +129,9 @@ id
 ![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/thread.jpg)
 [多线程学习资料](http://www.cnblogs.com/skywang12345/p/java_threads_category.html )
 
+## 集合
+![集合工具包框架图](https://github.com/chehuizi/demo/blob/master/collection.jpg)
+
 # http
 无连接  
 无状态
