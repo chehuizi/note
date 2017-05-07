@@ -123,7 +123,10 @@ id
 ------
 
 # Java
-## 序列化
+## IO
+![以字节为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/io_stream.jpg)
+![以字符为单位的输入流和输出流关联的框架图](https://github.com/chehuizi/demo/blob/master/io_char.jpg)
+[IO学习资料](http://www.cnblogs.com/skywang12345/p/io_01.html)
 
 ## 多线程
 ![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/thread.jpg)
