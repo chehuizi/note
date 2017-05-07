@@ -131,11 +131,11 @@ id
 [IO学习资料](http://www.cnblogs.com/skywang12345/p/io_01.html)
 
 ## 多线程
-![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/thread.jpg)
+![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/img/thread.jpg)
 [多线程学习资料](http://www.cnblogs.com/skywang12345/p/java_threads_category.html )
 
 ## 集合
-![集合工具包框架图](https://github.com/chehuizi/demo/blob/master/collection.jpg)
+![集合工具包框架图](https://github.com/chehuizi/demo/blob/master/img/collection.jpg)
 [集合学习资料](http://www.cnblogs.com/skywang12345/p/3323085.html)
 
 # http
