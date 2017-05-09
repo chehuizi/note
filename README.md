@@ -135,6 +135,9 @@ id
 ![字节和字符的输出流对应关系](https://github.com/chehuizi/demo/blob/master/img/io_out_stream_char.jpg)
 [IO学习资料](http://www.cnblogs.com/skywang12345/p/io_01.html)
 
+## NIO
+[NIO 入门](https://www.ibm.com/developerworks/cn/education/java/j-nio/)
+
 ## 多线程
 ![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/img/thread.jpg)
 [多线程学习资料](http://www.cnblogs.com/skywang12345/p/java_threads_category.html )
