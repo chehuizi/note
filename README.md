@@ -136,6 +136,10 @@ id
 [IO学习资料](http://www.cnblogs.com/skywang12345/p/io_01.html)
 
 ## NIO
+![阻塞式I/O](https://github.com/chehuizi/demo/blob/master/img/bio.png)
+![非阻塞式I/O](https://github.com/chehuizi/demo/blob/master/img/nio.png)
+![I/O复用（Java NIO就是这种模型）](https://github.com/chehuizi/demo/blob/master/img/nio_java.png)
+![异步I/O](https://github.com/chehuizi/demo/blob/master/img/aio.png)
 [NIO 入门](https://www.ibm.com/developerworks/cn/education/java/j-nio/)
 
 ## 多线程
