@@ -143,6 +143,7 @@ id
 ![非阻塞式I/O](https://github.com/chehuizi/demo/blob/master/img/nio.png)
 ![I/O复用（Java NIO就是这种模型）](https://github.com/chehuizi/demo/blob/master/img/nio_java.png)
 ![异步I/O](https://github.com/chehuizi/demo/blob/master/img/aio.png)
+![Reactor模式简图](https://github.com/chehuizi/demo/blob/master/img/reactor.png)
 
 ## 多线程
 ![多线程主要知识点](https://github.com/chehuizi/demo/blob/master/img/thread.jpg)
