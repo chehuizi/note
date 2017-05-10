@@ -137,6 +137,7 @@ id
 
 ## NIO
 [NIO 入门](https://www.ibm.com/developerworks/cn/education/java/j-nio/)
+------
 ![阻塞式I/O](https://github.com/chehuizi/demo/blob/master/img/bio.png)
 ![非阻塞式I/O](https://github.com/chehuizi/demo/blob/master/img/nio.png)
 ![I/O复用（Java NIO就是这种模型）](https://github.com/chehuizi/demo/blob/master/img/nio_java.png)
