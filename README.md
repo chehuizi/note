@@ -225,3 +225,29 @@ awk '$5 ~ /ldb/ {print}' f.txt #第五列匹配ldb
 NR:NR表示从awk开始执行后，按照记录分隔符读取的数据次数，默认的记录分隔符为换行符，因此默认的就是读取的数据行数，NR可以理解为Number of Record的缩写。  
 FNR:在awk处理多个输入文件的时候，在处理完第一个文件后，NR并不会从1开始，而是继续累加，因此就出现了FNR，每当处理一个新文件的时候，FNR就从1开始计数，FNR可以理解为File Number of Record。  
 NF: NF表示目前的记录被分割的字段的数目，NF可以理解为Number of Field。
+### find
+sudo -u admin find /home/admin /tmp /usr -name \*.log(多个目录去找)  
+find . -iname \*.txt(大小写都匹配)  
+find . -type d(当前目录下的所有子目录)  
+find /usr -type l(当前目录下所有的符号链接)  
+find /usr -type l -name "z*" -ls(符号链接的详细信息 eg:inode,目录)  
+find /home/admin -size +250000k(超过250000k的文件，当然+改成-就是小于了)  
+find /home/admin f -perm 777 -exec ls -l {} \; (按照权限查询文件)  
+find /home/admin -atime -1  1天内访问过的文件  
+find /home/admin -ctime -1  1天内状态改变过的文件   
+find /home/admin -mtime -1  1天内修改过的文件  
+find /home/admin -amin -1  1分钟内访问过的文件  
+find /home/admin -cmin -1  1分钟内状态改变过的文件      
+find /home/admin -mmin -1  1分钟内修改过的文件   
+### pgm
+批量查询vm-shopbase满足条件的日志  
+pgm -A -f vm-shopbase 'cat /home/admin/shopbase/logs/shopbase.log.2017-01-17|grep 2069861630'  
+### top
+top除了看一些基本信息之外，剩下的就是配合来查询vm的各种问题了  
+ps -ef | grep java  
+top -H -p pid  
+获得线程10进制转16进制后jstack去抓看这个线程到底在干啥
+### netstat
+netstat -nat|awk  '{print $6}'|sort|uniq -c|sort -rn   
+#查看当前连接，注意close_wait偏高的情况，比如如下  
+## JVM命令类
