@@ -172,6 +172,7 @@ id
 ## 锁
 ### 悲观锁
 ### 乐观锁
+大多是基于数据版本（Version）记录机制实现[jdk lock CAS]
 
 ## CAP
 C: Consistency 一致性  
