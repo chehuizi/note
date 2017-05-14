@@ -191,3 +191,20 @@ CAP理论的核心是：一个分布式系统不可能同时很好的满足一�
 # Case
 ## 如何生成唯一ID
 ## 秒杀系统如何设计
+
+# 常用定位问题工具
+## Linux命令类
+### tail
+最常用的tail -f  
+tail -300f shopbase.log #倒数300行并进入实时监听文件写入模式  
+### grep
+grep forest f.txt   #文件查找  
+grep forest f.txt cpf.txt #多文件查找  
+grep 'log' /home/admin -r -n #目录下查找所有符合关键字的文件  
+cat f.txt | grep -i shopbase  
+grep 'shopbase' /home/admin -r -n --include *.{vm,java} #指定文件后缀  
+grep 'shopbase' /home/admin -r -n --exclude *.{vm,java} #反匹配  
+seq 10 | grep 5 -A 3    #上匹配  
+seq 10 | grep 5 -B 3    #下匹配  
+seq 10 | grep 5 -C 3    #上下匹配，平时用这个就妥了  
+cat f.txt | grep -c 'SHOPBASE'  
