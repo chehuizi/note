@@ -250,4 +250,8 @@ top -H -p pid
 ### netstat
 netstat -nat|awk  '{print $6}'|sort|uniq -c|sort -rn   
 #查看当前连接，注意close_wait偏高的情况，比如如下  
-## JVM命令类
+## CPU相关工具
+### top (-H) 
+top可以实时的观察cpu的指标状况，尤其是每个core的指标状况，可以更有效的来帮助解决问题，-H则有助于看是什么线程造成的CPU消耗，这对解决一些简单的耗CPU的问题会有很大帮助。
+### jstack
+jstack可以用来查看Java进程里的线程都在干什么，这通常对于应用没反应，非常慢等等场景都有不小的帮助，jstack默认只能看到Java栈，而jstack -m则可以看到线程的Java栈和native栈，但如果Java方法被编译过，则看不到（然而大部分经常访问的Java方法其实都被编译过）。
