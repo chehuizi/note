@@ -255,6 +255,12 @@ netstat -nat|awk  '{print $6}'|sort|uniq -c|sort -rn
 top可以实时的观察cpu的指标状况，尤其是每个core的指标状况，可以更有效的来帮助解决问题，-H则有助于看是什么线程造成的CPU消耗，这对解决一些简单的耗CPU的问题会有很大帮助。
 ### jstack
 jstack可以用来查看Java进程里的线程都在干什么，这通常对于应用没反应，非常慢等等场景都有不小的帮助，jstack默认只能看到Java栈，而jstack -m则可以看到线程的Java栈和native栈，但如果Java方法被编译过，则看不到（然而大部分经常访问的Java方法其实都被编译过）。
+### 如何查线程最耗费CPU的线程信息
+1. ps –ef|grep java 或者 jps 查找出java进程ID。
+2. top –Hp pid 查找最耗CPU 的线程PID
+3. printf “%x\n” 4867 转换16进制
+4. 使用jstack查找出堆栈信息，跟踪代码分析
+
 ## 内存相关工具
 ### jstat 
 jstat -gcutil或-gc等等有助于实时看gc的状况，不过我还是比较习惯看gc log。
