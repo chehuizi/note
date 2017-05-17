@@ -254,7 +254,9 @@ netstat -nat|awk  '{print $6}'|sort|uniq -c|sort -rn
 ### top (-H) 
 top可以实时的观察cpu的指标状况，尤其是每个core的指标状况，可以更有效的来帮助解决问题，-H则有助于看是什么线程造成的CPU消耗，这对解决一些简单的耗CPU的问题会有很大帮助。
 ### jstack
-jstack可以用来查看Java进程里的线程都在干什么，这通常对于应用没反应，非常慢等等场景都有不小的帮助，jstack默认只能看到Java栈，而jstack -m则可以看到线程的Java栈和native栈，但如果Java方法被编译过，则看不到（然而大部分经常访问的Java方法其实都被编译过）。
+jstack可以用来查看Java进程里的线程都在干什么，这通常对于应用没反应，非常慢等等场景都有不小的帮助，jstack默认只能看到Java栈，而jstack -m则可以看到线程的Java栈和native栈，但如果Java方法被编译过，则看不到（然而大部分经常访问的Java方法其实都被编译过）。  
+Java栈：jstack 2815  
+Java+native栈：jstack -m 2815
 ### 如何查线程最耗费CPU的线程信息
 1. ps –ef|grep java 或者 jps 查找出java进程ID。
 2. top –Hp pid 查找最耗CPU 的线程PID
@@ -270,3 +272,13 @@ jstat -gcutil或-gc等等有助于实时看gc的状况，不过我还是比较�
 相比jmap -dump，其实我更喜欢gcore，因为感觉就是更快，不过由于某些jdk版本貌似和gcore配合的不是那么好，所以那种时候还是要用jmap -dump的。
 ### mat 
 有了内存dump后，没有分析工具的话然并卵，mat是个非常赞的工具，好用的没什么可说的。 mat的问题需要自己有大内存的机器，否则不好分析，另外就是还得把文件传来传去，所以在内部当然是用zprofiler，可以不用自己传文件，还是web版的，现在的话连机器都不用登录，更是大赞。
+### jps
+jps -mlvV
+### jinfo
+jinfo -flags 2815
+### jmap
+jmap -heap 2815  
+jmap -dump:live,format=b,file=/tmp/heap2.bin 2815  
+jmap -dump:format=b,file=/tmp/heap3.bin 2815  
+### jstat
+jstat -gcutil 2815 1000 
