@@ -24,7 +24,6 @@
     * <a href="#lucene">lucene</a>
 * <a href="#分布式数据管理">分布式数据管理</a>
   * <a href="#zookeeper">zookeeper</a>
-    
 * <a href="#appendix">Appendix</a>
   * <a href="#sql">SQL</a>
     * <a href="#join">join</a>
@@ -32,7 +31,7 @@
     * <a href="#left-join">left join</a>
     * <a href="#right-join">right join</a>
     * <a href="#full-join">full join</a>
-    
+
 # What is it?
 
 
@@ -107,6 +106,8 @@
 
 
 # Storage
+
+# dal
 
 
 # Search
@@ -251,7 +252,7 @@ top -H -p pid
 netstat -nat|awk  '{print $6}'|sort|uniq -c|sort -rn   
 #查看当前连接，注意close_wait偏高的情况，比如如下  
 ## CPU相关工具
-### top (-H) 
+### top (-H)
 top可以实时的观察cpu的指标状况，尤其是每个core的指标状况，可以更有效的来帮助解决问题，-H则有助于看是什么线程造成的CPU消耗，这对解决一些简单的耗CPU的问题会有很大帮助。
 ### jstack
 jstack可以用来查看Java进程里的线程都在干什么，这通常对于应用没反应，非常慢等等场景都有不小的帮助，jstack默认只能看到Java栈，而jstack -m则可以看到线程的Java栈和native栈，但如果Java方法被编译过，则看不到（然而大部分经常访问的Java方法其实都被编译过）。  
@@ -264,13 +265,13 @@ Java+native栈：jstack -m 2815
 4. 使用jstack查找出堆栈信息，跟踪代码分析
 
 ## 内存相关工具
-### jstat 
+### jstat
 jstat -gcutil或-gc等等有助于实时看gc的状况，不过我还是比较习惯看gc log。
-### jmap 
+### jmap
 在需要dump内存看看内存里都是什么的时候，jmap -dump可以帮助你；在需要强制执行fgc的时候（在CMS GC这种一定会产生碎片化的GC中，总是会找到这样的理由的），jmap -histo:live可以帮助你（显然，不要随便执行）。
-### gcore 
+### gcore
 相比jmap -dump，其实我更喜欢gcore，因为感觉就是更快，不过由于某些jdk版本貌似和gcore配合的不是那么好，所以那种时候还是要用jmap -dump的。
-### mat 
+### mat
 有了内存dump后，没有分析工具的话然并卵，mat是个非常赞的工具，好用的没什么可说的。 mat的问题需要自己有大内存的机器，否则不好分析，另外就是还得把文件传来传去，所以在内部当然是用zprofiler，可以不用自己传文件，还是web版的，现在的话连机器都不用登录，更是大赞。
 ### jps
 jps -mlvV
@@ -281,4 +282,4 @@ jmap -heap 2815
 jmap -dump:live,format=b,file=/tmp/heap2.bin 2815  
 jmap -dump:format=b,file=/tmp/heap3.bin 2815  
 ### jstat
-jstat -gcutil 2815 1000 
+jstat -gcutil 2815 1000
